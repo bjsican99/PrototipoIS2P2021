@@ -25,3 +25,12 @@ D:\Escritorio\Parcial\MVC\CapaControlador\obj\Debug\CapaControlador.csproj.CoreC
 D:\Escritorio\Parcial\MVC\CapaControlador\obj\Debug\CapaControlador.csproj.CopyComplete
 D:\Escritorio\Parcial\MVC\CapaControlador\obj\Debug\CapaControlador.dll
 D:\Escritorio\Parcial\MVC\CapaControlador\obj\Debug\CapaControlador.pdb
+D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaControlador\bin\Debug\CapaControlador.dll
+D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaControlador\bin\Debug\CapaControlador.pdb
+D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaControlador\bin\Debug\CapaModelo.dll
+D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaControlador\bin\Debug\CapaModelo.pdb
+D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaControlador\obj\Debug\CapaControlador.csprojAssemblyReference.cache
+D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaControlador\obj\Debug\CapaControlador.csproj.CoreCompileInputs.cache
+D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaControlador\obj\Debug\CapaControlador.csproj.CopyComplete
+D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaControlador\obj\Debug\CapaControlador.dll
+D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaControlador\obj\Debug\CapaControlador.pdb
