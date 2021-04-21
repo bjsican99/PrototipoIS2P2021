@@ -10,3 +10,9 @@ D:\Escritorio\Parcial\MVC\CapaModelo\obj\Debug\CapaModelo.csprojAssemblyReferenc
 D:\Escritorio\Parcial\MVC\CapaModelo\obj\Debug\CapaModelo.csproj.CoreCompileInputs.cache
 D:\Escritorio\Parcial\MVC\CapaModelo\obj\Debug\CapaModelo.dll
 D:\Escritorio\Parcial\MVC\CapaModelo\obj\Debug\CapaModelo.pdb
+D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaModelo\bin\Debug\CapaModelo.dll
+D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaModelo\bin\Debug\CapaModelo.pdb
+D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaModelo\obj\Debug\CapaModelo.csprojAssemblyReference.cache
+D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaModelo\obj\Debug\CapaModelo.csproj.CoreCompileInputs.cache
+D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaModelo\obj\Debug\CapaModelo.dll
+D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaModelo\obj\Debug\CapaModelo.pdb
