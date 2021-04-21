@@ -11,6 +11,7 @@ using CapaControlador;
 using CapaVistaSeguridad;
 using CapaVistaSeguridad.Formularios;
 using CapaVistaSeguridad.Formularios.Mantenimientos;
+using CapaVista.Mantenimientos;
 
 namespace CapaVista
 {
@@ -89,25 +90,7 @@ namespace CapaVista
                 bit.insert("Trato de ingresar a Mantenimiento Usuario", 2);
                 MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
             }
-        }
-        //Para el mantenimiento-0003
-        private void mantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            if (seguridad.PermisosAcceso("3", txtusuario.Text) == 1)
-            {
-                bit.user(txtusuario.Text);
-                bit.insert("Ingreso A Mantenimiento Aplicaciones", 3);
-                frmMantenimiento mantenimiento = new frmMantenimiento(txtusuario.Text);
-                mantenimiento.MdiParent = this;
-                mantenimiento.Show();
-            }
-            else
-            {
-                bit.user(txtusuario.Text);
-                bit.insert("Trato de Ingresar A Mantenimiento Aplicaciones", 3);
-                MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
-            }
-        }
+        }       
         //Mantenimiento Perfil-0004
         private void mantenimientoAPerfilToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -191,10 +174,96 @@ namespace CapaVista
         }
 
 
-        //Mantenimiento Aplicaciones
+        //Mantenimiento aplicaciones 0003
         private void mantenimiendoAplicacionesToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            if (seguridad.PermisosAcceso("3", txtusuario.Text) == 1)
+            {
+                bit.user(txtusuario.Text);
+                bit.insert("Ingreso A Mantenimiento Aplicaciones", 3);
+                frmAplicativo aplicativo = new frmAplicativo();
+                aplicativo.MdiParent = this;
+                aplicativo.Show();
+            }
+            else
+            {
+                bit.user(txtusuario.Text);
+                bit.insert("Trato de Ingresar A Mantenimiento Aplicaciones", 3);
+                MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
+            }
+        }
 
+        //Mantenimientos---------------------------------------------------------------
+        private void mantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (seguridad.PermisosAcceso("301", txtusuario.Text) == 1)
+            {
+                bit.user(txtusuario.Text);
+                bit.insert("Ingreso A Mantenimiento Clientes Tarjeta", 301);
+                frmMantenmientoTarjeta mantenimiento = new frmMantenmientoTarjeta(txtusuario.Text);
+                mantenimiento.MdiParent = this;
+                mantenimiento.Show();
+            }
+            else
+            {
+                bit.user(txtusuario.Text);
+                bit.insert("Trato de Ingresar A Mantenimiento Cliente Tarjeta", 301);
+                MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
+            }
+        }
+
+        private void mantenimientoAutorToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            if (seguridad.PermisosAcceso("302", txtusuario.Text) == 1)
+            {
+                bit.user(txtusuario.Text);
+                bit.insert("Ingreso A Mantenimiento Autor Peliculas", 302);
+                frmMantenimientoAutor mantenimientoAutor = new frmMantenimientoAutor(txtusuario.Text);
+                mantenimientoAutor.MdiParent = this;
+                mantenimientoAutor.Show();
+            }
+            else
+            {
+                bit.user(txtusuario.Text);
+                bit.insert("Trato de Ingresar A Mantenimiento Autor Peliculas", 302);
+                MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
+            }
+        }
+
+        private void mantenimientoGeneroPeliculaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (seguridad.PermisosAcceso("303", txtusuario.Text) == 1)
+            {
+                bit.user(txtusuario.Text);
+                bit.insert("Ingreso A Mantenimiento Genero Peliculas", 303);
+                frmMantenimientoGenero mantenimiento = new frmMantenimientoGenero(txtusuario.Text);
+                mantenimiento.MdiParent = this;
+                mantenimiento.Show();
+            }
+            else
+            {
+                bit.user(txtusuario.Text);
+                bit.insert("Trato de Ingresar A Mantenimiento Genero Peliculas", 303);
+                MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
+            }
+        }
+
+        private void peliculasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (seguridad.PermisosAcceso("304", txtusuario.Text) == 1)
+            {
+                bit.user(txtusuario.Text);
+                bit.insert("Ingreso A Mantenimiento Peliculas", 304);
+                frmMantenimientoPelicula mantenimiento = new frmMantenimientoPelicula(txtusuario.Text);
+                mantenimiento.MdiParent = this;
+                mantenimiento.Show();
+            }
+            else
+            {
+                bit.user(txtusuario.Text);
+                bit.insert("Trato de Ingresar A Mantenimiento Peliculas", 304);
+                MessageBox.Show("El Usuario No Cuenta Con Permisos De Acceso A La Aplicación");
+            }
         }
     }
 }

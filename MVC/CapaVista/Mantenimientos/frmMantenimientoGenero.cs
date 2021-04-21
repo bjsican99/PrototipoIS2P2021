@@ -8,12 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CapaVista
+namespace CapaVista.Mantenimientos
 {
-    public partial class frmMantenimiento : Form
+    public partial class frmMantenimientoGenero : Form
     {
         string UsuarioAplicacion;
-        public frmMantenimiento(string usuario)
+        public frmMantenimientoGenero(string usuario)
         {
             InitializeComponent();
             rbHabilitado.Checked = true;
@@ -27,9 +27,9 @@ namespace CapaVista
             List<string> CamposTabla = new List<string>();
             List<Control> lista = new List<Control>();
             //llenado de  parametros para la aplicacion 
-            navegador1.aplicacion = 301;
-            navegador1.tbl = "login";
-            navegador1.campoEstado = "estado_login";
+            navegador1.aplicacion = 303;
+            navegador1.tbl = "categoriapelicula";
+            navegador1.campoEstado = "estadoCategoria";
 
             //se agregan los componentes del formulario a la lista tipo control
             foreach (Control C in this.Controls)
@@ -60,13 +60,28 @@ namespace CapaVista
 
             navegador1.control = lista;
             navegador1.formulario = this;
-            navegador1.DatosActualizar = dgvMantenimiento;
+            navegador1.DatosActualizar = dgvCategoria;
             navegador1.procActualizarData();
             navegador1.procCargar();
             navegador1.ayudaRuta = "HTML/Ayudas.chm";
             navegador1.ruta = "Ayuda_Mantenimiento_Centros.html";
             rbHabilitado.Checked = true;
-           rbDeshabilitado.Checked = false;
+            rbDeshabilitado.Checked = false;
+        }
+
+        private void txtNombreCate_TextChanged(object sender, EventArgs e)
+        {
+            txtEstado.Text = "1";
+        }
+
+        private void rbHabilitado_CheckedChanged(object sender, EventArgs e)
+        {
+            txtEstado.Text = "1";
+        }
+
+        private void rbDeshabilitado_CheckedChanged(object sender, EventArgs e)
+        {
+            txtEstado.Text = "0";
         }
     }
 }

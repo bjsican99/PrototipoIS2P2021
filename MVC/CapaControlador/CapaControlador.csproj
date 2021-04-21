@@ -44,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controlador.cs" />
+    <Compile Include="clsControlador.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VariableGlobal.cs" />
   </ItemGroup>

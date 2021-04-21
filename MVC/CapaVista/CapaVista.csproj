@@ -53,11 +53,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Mantenimientos\frmMantenimiento.cs">
+    <Compile Include="Mantenimientos\frmMantenimientoAutor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mantenimientos\frmMantenimiento.Designer.cs">
-      <DependentUpon>frmMantenimiento.cs</DependentUpon>
+    <Compile Include="Mantenimientos\frmMantenimientoAutor.Designer.cs">
+      <DependentUpon>frmMantenimientoAutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantenimientoGenero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantenimientoGenero.Designer.cs">
+      <DependentUpon>frmMantenimientoGenero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantenimientoPelicula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantenimientoPelicula.Designer.cs">
+      <DependentUpon>frmMantenimientoPelicula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMatenimientoTarjeta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMatenimientoTarjeta.Designer.cs">
+      <DependentUpon>frmMatenimientoTarjeta.cs</DependentUpon>
     </Compile>
     <Compile Include="MDIPrincipal.cs">
       <SubType>Form</SubType>
@@ -66,14 +84,35 @@
       <DependentUpon>MDIPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Mantenimientos\frmMantenimiento.resx">
-      <DependentUpon>frmMantenimiento.cs</DependentUpon>
+    <EmbeddedResource Include="Mantenimientos\frmMantenimientoAutor.resx">
+      <DependentUpon>frmMantenimientoAutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\frmMantenimientoGenero.resx">
+      <DependentUpon>frmMantenimientoGenero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\frmMantenimientoPelicula.resx">
+      <DependentUpon>frmMantenimientoPelicula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\frmMatenimientoTarjeta.resx">
+      <DependentUpon>frmMatenimientoTarjeta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MDIPrincipal.resx">
       <DependentUpon>MDIPrincipal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mantenimiento_Centro_1141515.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

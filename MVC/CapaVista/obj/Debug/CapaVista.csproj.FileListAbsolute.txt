@@ -82,10 +82,14 @@ D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaVista\bin\Debug\CapaC
 D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaVista\bin\Debug\CapaModeloSeguridad.pdb
 D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaVista\bin\Debug\CapaModeloNavegador.pdb
 D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaVista\obj\Debug\CapaVista.csprojAssemblyReference.cache
-D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaVista\obj\Debug\CapaVista.frmMantenimiento.resources
 D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaVista\obj\Debug\CapaVista.MDIPrincipal.resources
 D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaVista\obj\Debug\CapaVista.csproj.GenerateResource.cache
 D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaVista\obj\Debug\CapaVista.csproj.CoreCompileInputs.cache
 D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaVista\obj\Debug\CapaVista.csproj.CopyComplete
 D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaVista\obj\Debug\CapaVista.dll
 D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaVista\obj\Debug\CapaVista.pdb
+D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaVista\obj\Debug\CapaVista.Properties.Resources.resources
+D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaVista\obj\Debug\CapaVista.Mantenimientos.frmMantenimientoAutor.resources
+D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaVista\obj\Debug\CapaVista.Mantenimientos.frmMantenimientoGenero.resources
+D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaVista\obj\Debug\CapaVista.frmMantenmientoTarjeta.resources
+D:\Documentos\Proyectos-Software\PrototipoIS2P2021\MVC\CapaVista\obj\Debug\CapaVista.Mantenimientos.frmMantenimientoPelicula.resources
