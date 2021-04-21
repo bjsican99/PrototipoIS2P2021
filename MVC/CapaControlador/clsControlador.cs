@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CapaControlador
 {
-    public class Controlador
+    public class clsControlador
     {
         Sentencias Modelo = new Sentencias();
         //clsVariableGlobal glo = new clsVariableGlobal();
